@@ -24,21 +24,30 @@ body{
 .title{
   text-align: center;
   margin-top: 10px;
+
 }
 
 div > h1{
-  font-size: 400%
+  font-size: 400%;
+  position: relative;
+  margin-left: -100px;
+}
+#icon{
+  float: right;
+  max-width: 13.5%;
+  height: auto;
+  margin-top: -150px;
+  margin-right: 420px;
 }
 
-.container{
+#map{
   width: 80%;
-  height: 400px;
+  height: 350px;
   border: #222222;
-  border-radius: 2%;
+  /*border-radius: 12%;*/
   border-style: solid;
   border-color: lightgray;
   margin: auto;
-  margin-top: -20px;
 }
 
 form{
@@ -55,8 +64,8 @@ form > label{
 
 form > select{
   margin-right: 5px;
-  margin-top: -25px;
-  width: 100px;
+  margin-top: -20px;
+  width: 130px;
 }
 
 select > option{
@@ -253,9 +262,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
