@@ -35,7 +35,7 @@ function moveMapToBerlin(map){
 
 //Step 1: initialize communication with the platform
 // In your own code, replace variable window.apikey with your own apikey
-const platform = new H.service.Platform({ apikey: 'Ur2Ta9ieNRSigEBl_iJBHefdmCdbreoAO1WnW6DGWSQ' });
+const platform = new H.service.Platform({ apikey: 'apikey' });
 const defaultLayers = platform.createDefaultLayers();
 
 //Step 2: initialize a map - this map is centered over Europe
